@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">Hello Spinner</string>
-    <string name="actionBar">IU2141230022 LAB-0</string>
-    <string name="i_am_jhems">I am Jhems</string>
-    <string name="spinner">This is Spinner</string>
+    <string name="actionBar">IU2141230022 LAB-3</string>
     <string-array name="fruits">
         <item>Apple</item>
         <item>Banana</item>

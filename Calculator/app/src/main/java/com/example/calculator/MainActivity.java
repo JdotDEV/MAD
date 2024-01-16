@@ -3,25 +3,19 @@ package com.example.calculator;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
 import net.objecthunter.exp4j.Expression;
 import net.objecthunter.exp4j.ExpressionBuilder;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-
     private TextView equationTextView;
     private final StringBuilder equationBuilder = new StringBuilder();
     private double lastResult = 0.0;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         equationTextView = findViewById(R.id.equationTextView);
-
         setNumericButtonClickListener(R.id.button_0, "0");
         setNumericButtonClickListener(R.id.button_1, "1");
         setNumericButtonClickListener(R.id.button_2, "2");
@@ -127,14 +121,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void calculatePercentage() {
         try {
-            // Convert the equation to a numeric value
             double numericValue = Double.parseDouble(String.valueOf(evaluateExpression(equationBuilder.toString())));
-
-            // Calculate the percentage value
             double result = numericValue / 100.0;
             lastResult = result;
-
-            // Display the result
             String resultText = String.format("%.2f", result);
             equationTextView.setText(resultText);
 

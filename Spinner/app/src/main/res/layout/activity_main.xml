@@ -20,7 +20,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.443" />
-
     <Spinner
         android:id="@+id/spinner_IU2141230022"
         android:layout_width="wrap_content"
@@ -32,8 +31,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/helloWorld"
         app:layout_constraintVertical_bias="0.2" />
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

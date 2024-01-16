@@ -20,7 +20,6 @@
         android:maxLines="1"
         android:layout_above="@id/buttons"
         tools:ignore="RtlSymmetry">
-
     </TextView>
 
     <LinearLayout
@@ -30,13 +29,11 @@
         android:layout_alignParentBottom="true"
         android:paddingVertical="10dp"
         android:id="@+id/buttons">
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:orientation="horizontal">
-
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_ac"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
@@ -49,7 +46,6 @@
                 android:textStyle="bold"
                 app:backgroundTint="@color/grey"
                 app:cornerRadius="40dp" />
-
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_back"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
@@ -62,7 +58,6 @@
                 android:textStyle="bold"
                 app:backgroundTint="@color/grey"
                 app:cornerRadius="40dp" />
-
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_percent"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
@@ -75,7 +70,6 @@
                 android:textStyle="bold"
                 app:backgroundTint="@color/grey"
                 app:cornerRadius="40dp" />
-
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_divide"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
@@ -88,7 +82,6 @@
                 android:textStyle="bold"
                 app:backgroundTint="@color/orange"
                 app:cornerRadius="40dp" />
-
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -106,8 +99,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_7"
-                android:text="@string/_7"
-                />
+                android:text="@string/_7" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="76dp"
                 android:layout_height="76dp"
@@ -119,8 +111,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_8"
-                android:text="@string/_8"
-                />
+                android:text="@string/_8" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="76dp"
                 android:layout_height="76dp"
@@ -132,8 +123,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_9"
-                android:text="@string/_9"
-                />
+                android:text="@string/_9" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="76dp"
                 android:layout_height="76dp"
@@ -145,9 +135,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_mul"
-                android:text="@string/mul"
-                />
-
+                android:text="@string/mul" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -165,8 +153,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_4"
-                android:text="@string/_4"
-                />
+                android:text="@string/_4" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="76dp"
                 android:layout_height="76dp"
@@ -178,8 +165,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_5"
-                android:text="@string/_5"
-                />
+                android:text="@string/_5" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="76dp"
                 android:layout_height="76dp"
@@ -191,8 +177,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_6"
-                android:text="@string/_6"
-                />
+                android:text="@string/_6" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="76dp"
                 android:layout_height="76dp"
@@ -204,9 +189,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_sub"
-                android:text="@string/sub"
-                />
-
+                android:text="@string/sub" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -224,8 +207,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_1"
-                android:text="@string/_1"
-                />
+                android:text="@string/_1" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="76dp"
                 android:layout_height="76dp"
@@ -237,8 +219,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_2"
-                android:text="@string/_2"
-                />
+                android:text="@string/_2" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="76dp"
                 android:layout_height="76dp"
@@ -250,8 +231,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_3"
-                android:text="@string/_3"
-                />
+                android:text="@string/_3" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="76dp"
                 android:layout_height="76dp"
@@ -263,9 +243,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_add"
-                android:text="@string/add"
-                />
-
+                android:text="@string/add" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -284,8 +262,7 @@
                 android:layout_margin="12dp"
                 android:id="@+id/button_0"
                 android:text="@string/_0"
-                android:gravity="center_vertical"
-                />
+                android:gravity="center_vertical" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="76dp"
                 android:layout_height="76dp"
@@ -297,8 +274,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_point"
-                android:text="@string/_."
-                />
+                android:text="@string/_." />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="76dp"
                 android:layout_height="76dp"
@@ -310,13 +286,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_equal"
-                android:text="@string/equal"
-                />
-
+                android:text="@string/equal" />
         </LinearLayout>
-
-
     </LinearLayout>
-
-
   </RelativeLayout>
