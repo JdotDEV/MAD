@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hello Spinner</string>
+    <string name="actionBar">IU2141230022 LAB-0</string>
+    <string name="i_am_jhems">I am Jhems</string>
+    <string name="spinner">This is Spinner</string>
+    <string-array name="fruits">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Orange</item>
+        <item>Mango</item>
+        <item>Watermelon</item>
+        <item>Strawberry</item>
+    </string-array>
+</resources>
