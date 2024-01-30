@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
         Button btnDatePicker = findViewById(R.id.btnDatePicker);
     }
     public void showDatePickerDialog(View view) {
-        // Get the current date
         final Calendar calendar = Calendar.getInstance();
         int year = calendar.get(Calendar.YEAR);
         int month = calendar.get(Calendar.MONTH);
