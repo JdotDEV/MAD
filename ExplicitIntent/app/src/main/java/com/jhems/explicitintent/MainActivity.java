@@ -18,13 +18,7 @@ public class MainActivity extends AppCompatActivity {
         btnOpenSecondActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Create an explicit intent to open SecondActivity
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-
-                // Optionally, you can pass data to the next activity
-                intent.putExtra("key", "Hello from MainActivity!");
-
-                // Start the activity
                 startActivity(intent);
             }
         });

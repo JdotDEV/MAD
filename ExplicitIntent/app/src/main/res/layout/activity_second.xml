@@ -9,16 +9,17 @@
         android:id="@+id/txtMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/this_is_second_activity"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:text="@string/second_activity_page" />
 
     <Button
         android:id="@+id/btnBackToMainActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/back_to_main_activity"
         android:layout_below="@id/txtMessage"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:layout_centerHorizontal="true" />
+        android:text="@string/back_to_main_activity"
+        android:backgroundTint="@color/red"/>
 
 </RelativeLayout>
